@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Manrope:wght@200..800&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #dadada;
+	font-family: "Manrope", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.container{
+    padding: 3rem;
+}
+
+textarea{
+    margin-top: 1rem;
+    width: 400px;
+    height: 130px;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid #dadada;
+    border-radius: 4px;
+    outline-color: royalblue;
+    padding: 10px;
+    resize: none;
+}
