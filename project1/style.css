@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Manrope:wght@200..800&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #dadada;
+	font-family: "Manrope", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 300;
+	font-style: normal;
+}
+
+input{
+	margin: 2rem;
+	width: 60vw;
+	padding: 0.6rem 2rem;
+	border: 1px solid #dadada;
+	border-radius: 4px;
+	outline-color: #dadada;
+	font-size: 1rem;
+}
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.products{
+	margin-top: 2rem;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	column-gap: 2rem;
+	row-gap: 2rem;
+}
+
+.product{
+	padding: 1rem;
+	border: 1px solid royalblue;
+	border-radius: 5px;
+}
+
+#sortPrice,#sortRating{
+	padding: 0.3rem 1rem;
+}
